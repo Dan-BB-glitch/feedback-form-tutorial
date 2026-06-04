@@ -17,7 +17,7 @@ components:
       type: Label
     - layout_properties: {grid_position: 'YFDFDD,ROSSVP'}
       name: name_box
-      properties: {}
+      properties: {text: ''}
       type: TextBox
     - layout_properties: {grid_position: 'GFWTHQ,BTVFQP'}
       name: label_3
@@ -25,13 +25,13 @@ components:
       type: Label
     - layout_properties: {grid_position: 'GFWTHQ,IGIQZS'}
       name: email_box
-      properties: {}
+      properties: {text: ''}
       type: TextBox
     - layout_properties: {grid_position: 'AUQCER,PGGKZX'}
       name: label_4
       properties: {text: 'Feedback: '}
       type: Label
-    - layout_properties: {grid_position: 'ZPSYHM,KELMPL'}
+    - layout_properties: {grid_position: 'QFSRND,VGCUKR'}
       name: feedback_box
       properties: {text: ''}
       type: TextArea
