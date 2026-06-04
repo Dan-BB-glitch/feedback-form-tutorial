@@ -1,10 +1,36 @@
 allow_embedding: false
-name: Material Design 1
-package_name: Material_Design_1
+db_schema:
+  feedback:
+    client: none
+    columns:
+    - admin_ui: {order: 0, width: 200}
+      client_hidden: false
+      name: Name
+      type: string
+    - admin_ui: {order: 1, width: 200}
+      client_hidden: false
+      name: Email
+      type: string
+    - admin_ui: {order: 2, width: 200}
+      client_hidden: false
+      name: Feedback
+      type: string
+    - admin_ui: {order: 3, width: 200}
+      client_hidden: false
+      name: created?
+      type: datetime
+    indexes: []
+    server: full
+    title: Feedback
+name: Feedback Form Tutorial
+package_name: Feedback_Form_Tutorial
 runtime_options:
   client_version: '3'
   legacy_features: {bootstrap3: true, class_names: true}
   server_spec: {base: python310-minimal}
   version: 3
-services: []
+services:
+- client_config: {enable_v2: true}
+  server_config: {}
+  source: /runtime/services/tables.yml
 startup_form: Form1
