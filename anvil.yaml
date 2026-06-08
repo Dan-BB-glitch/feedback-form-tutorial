@@ -5,19 +5,19 @@ db_schema:
     columns:
     - admin_ui: {order: 0, width: 200}
       client_hidden: false
-      name: Name
+      name: name
       type: string
     - admin_ui: {order: 1, width: 200}
       client_hidden: false
-      name: Email
+      name: email
       type: string
     - admin_ui: {order: 2, width: 200}
       client_hidden: false
-      name: Feedback
+      name: feedback
       type: string
     - admin_ui: {order: 3, width: 200}
       client_hidden: false
-      name: created?
+      name: created
       type: datetime
     indexes: []
     server: full
