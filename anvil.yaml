@@ -21,7 +21,7 @@ db_schema:
       type: datetime
     indexes: []
     server: full
-    title: Feedback
+    title: feedback
 name: Feedback Form Tutorial
 package_name: Feedback_Form_Tutorial
 runtime_options:
