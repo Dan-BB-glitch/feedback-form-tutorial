@@ -22,7 +22,10 @@ class Form1(Form1Template):
     Notification("Feedback submitted!").show()
     self.clear_inputs()
 
-  def 
+  def clear_inputs(self):
+    self.name_box.text = ""
+    self.email_box.text = ""
+    self.feedback_box.text = ""
 
 
 
