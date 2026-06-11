@@ -20,3 +20,12 @@ def add_feedback(name, email, feedback):
     feedback = feedback,
     created= datetime.now()
   )
+  anvil.email.send(to="boyeded5@hwbcymru.net",
+                   subject=f"Feedback from {name}",
+                   text = f"""
+                   A new person has filled out the form.
+
+                   Name: {name}
+                   Email Address: {email}
+                   Feedback: {feedback}
+                  """)
